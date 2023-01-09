@@ -1,0 +1,174 @@
+<!---HTML-->
+
+<!--NAV----->
+<nav id="navbar">
+  <ul class="navlist">
+    <li> <a href="#welcome-section">About</a></li> &emsp;
+    <li> <a href="#projects">My Work </a></li> &emsp;
+      <li> <a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+  <!--END OF NAV-->
+  <section id="welcome-section">
+    <h1> Hey I'm Raghul G </h1>
+    <p> Web Developer | DataScientist | AI, Machine Learning and Deep Learning | Android App Developer </p>
+</section>
+<section id="projects">
+  <div class="project-tile">
+    <h2> Here are some of my Projects </h2>
+  </div>
+  <div>
+    <a href="https://codepen.io/Rahul-G/pen/jOmZazN" id="link" target="_blank">
+    <img src="https://cdn.vox-cdn.com/thumbor/rES5fxTJl-z014NcJV7Rradtxrc=/0x86:706x557/1400x1400/filters:focal(0x86:706x557):format(png)/cdn.vox-cdn.com/imported_assets/847184/stevejobs.png" id="image" width="500" height="400" alt="project"><br>Tribute Page</a>
+    </div>
+  <div>
+    <a href="https://codepen.io/Rahul-G/pen/qBmKrVX" id="link" target="_blank"><img src="https://lh3.googleusercontent.com/DCjwRyGckYsSlwbBRZzE77l1Y6n67pG2-vrVsaJyLmRdBn_zZWw_UU37LohNmuE1tmUIRAoHoZL98lJaivamDrfChA-ZBA0iPwihU0Uta2wlhfJ3cgbKNEqc2Mbh-wZHNAESDdYR9JLJzuJmltkwmf5fzzndWlhqUBgkKa3YCYd_qZgwSQBeGwZ2yUsZ0uXj3V-YzkQ8HoIXVwTN7MeGYaUIuHobkqhVcXfYocZppCTJwB1i0ztl8zeAvvp4Ji9aZ-mpAvwNFQ_VjSPR45hTYIMqWy-t_p6btcKdWqVYd8CrTtgQvxLISgG2AJp08t8uKZfCe9nc7GNKrG4LC0b-ub84xZjPaciRZOsjk0zlADBuZELRzb9QVoxng4JjSYH8GvDDUIPi2uoriPUwaP5-6d8c44afbGMf-_azU8qyxcemxMtT9rEs8nttQ9krhVkLctvPci5cVmQcPMWNltCHsPIHJ_6LgFKA796FzyXDhKF52_vg8kR-zR4KPO4Hkzybun7AuH9BN8UDMhpFUv2GWUkSOG-mOXek9gWjChujXsAwYsiAGvDthuLmTKm4J6Wk0_zjG7ccIz78ImAv96VQns3vp2EEQI2ACdMaNmoD7RLtNqndy0CxfNZYILYv4T7MuTVCHixUL-Xz9BnIadRiAgNkb-8fmw4sRSQTwSZkSVOMXUwOCyH-6BtiSX2IyUJMhlsE_o_gYGnSCur1RHEFoF0=w545-h600-no?authuser=0" id="image" height="400" width="500" alt="project"><br>Survey Form </a>
+  </div>
+  <div>
+    <a href="https://codepen.io/Rahul-G/pen/yLbGRyx" id="link" target="_blank"><img src="https://www.nixsolutions.com/uploads/2020/07/Golang.png" width="500" height="400" id="image" alt="project"><br> Technical Documenation Page </a>
+  </div>
+  <div>
+    <a href="https://codepen.io/Rahul-G/pen/xxdyjpK" id="link" target="_blank"><img src="https://assets.mspimages.in/wp-content/uploads/2020/10/amazon_echo_dot_6.jpeg" height="400" width="500" id="image" alt="project"><br> Product Landing Page </a>
+  </div>
+</section>
+<footer id="contact">
+  <section id="profile-link">
+    <h1>Contacts </h1>
+    <ul>
+      <li><a href="https://github.com/Raghul-G2002" target="_blank">Github </a> </li>
+      <li><a href="https://www.freecodecamp.org/rahul_2002" target="_blank"> FreeCodeCamp </a></li>
+      <li><a href="" target="_blank">Twitter </a></li>
+      <li><a href="https://www.linkedin.com/in/raghul-g-16186b202/" target="_blank"> Linkedin </a></li>
+      <li> <a href="#">Contact:+91 7577948377 </a></li>
+      <li> <a href="#">Email: rahul.brainiac.2002@gmail.com </a></li>
+    </ul>
+    <p>Created as a Project to FreeCodeCamp (Responsive Web Designing).</p>
+  </section>
+</footer>
+<!--CSS-->
+
+#navbar{
+  display:flex;
+  background:linear-gradient(45deg,cyan,black);
+  font-size:1.5em;
+  justify-content:flex-end; 
+  /*position:fixed;*//*To make sure that the nav is fixed*/
+  z-index:10;
+  top=0;
+  left=0;
+  width=100%;
+}
+.navlist{
+  display:flex;
+  margin-right:2rem;
+  font-family:consolas;
+}
+#navbar a{
+  text-decoration:none;
+  color:white;
+  display:block;
+}
+#navbar a:hover{
+  background-color:grey;
+}
+#navbar ul{
+  list-style:none;
+}
+#welcome-section{
+  color:white;
+  text-align:center;
+  font-family:consolas;
+  font-weight:bold;
+  font-style:italic;
+  background:linear-gradient(45deg,red,black);
+  display:grid;
+}
+#welcome-section p{
+  color:white;
+}
+h1{
+  font-size:40px;
+}
+
+#image{
+  display:flex;
+  
+}
+#link{
+  font-size:20px;
+  font-family:consolas;
+  display:flex;
+  color:white;
+}
+#image{
+  height:auto;
+  max-width:100%;
+}
+div a:hover{
+  background-color:grey;
+  display:grid;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+#projects{
+  background:linear-gradient(45deg,black,yellow);
+  display:grid;
+}
+.project-tile{
+  color:white;
+  font-size:30px;
+  font-family:consolas;
+  font-style:italic;
+  text-decoration:underline;
+  text-align:center;
+}
+#contact{
+  background:linear-gradient(45deg,white,black);
+  display:grid;
+  text-align:center;
+  font-family:consolas;
+}
+#profile-link li{
+  list-style:none;
+  line-height:1.5em;
+  display:flex;
+  font-family:consolas;
+}
+@media (min-height:350px){
+  #navbar{
+  display:flex;
+  background:linear-gradient(45deg,cyan,black);
+  font-size:1.5em;
+  justify-content:flex-end; 
+  /*position:fixed;*//*To make sure that the nav is fixed*/
+  z-index:10;
+  top=0;
+  left=0;
+  width=100%;
+}
+.navlist{
+  display:flex;
+  margin-right:2rem;
+}
+#navbar a{
+  text-decoration:none;
+  color:white;
+  display:block;
+}
+#navbar a:hover{
+  background-color:grey;
+}
+#navbar ul{
+  list-style:none;
+}
+}
+
+
+
+
+    
+  
+  
+  
