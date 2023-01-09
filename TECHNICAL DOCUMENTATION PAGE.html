@@ -1,0 +1,114 @@
+<!---HTML--->
+<html>
+<head>
+<link ref="stylesheet" type="text/css" href="style.css">
+</head>
+
+<nav id="navbar">
+  <h1>Go Language</h1>
+  <ul>
+    <li><a class="nav-link" href="#intro">Introduction</a></li>
+    <li> <a class="nav-link" href="#Install_commands">Installation and Go Commands</a> </li>
+    <li> <a class="nav-link" href="#fst_pro">First Program </a> </li>
+    <li> <a class="nav-link"  href="#var_dec">Variable Declaration </a> </li>
+    <li> <a class="nav-link"  href="#func_ret">Functions and Return Statements </a> </li>
+    <li> <a class="nav-link" href="#ref">Reference </a> </li>
+  </ul>
+    </nav>
+<main id="main-doc">
+  <section class="main-section" id="intro"> 
+    <header>Introduction</header>
+<p>
+  Go lang is a statically typed compiled programming language created by <q> Google </q>. The initial release of this programming language was at 2012 and the final release was released at the year 2021. It was created by Robert Griesemar, Rob Pike and Ken Thompson. Go is not an object oriented programming language. The advantages of Go Programming language are listed below:
+  <ol>
+    <li>Go is really simple langauge to understand. It allows new programmer to pick upi the langauge quickly, and it allows experienced programmers to quickly understand someone else's code.
+    </li>
+    <li> Go is the one of the fast programming language comparitively. If you're coming from an interpreted language like PHP, Python, or Ruby, it's almost a night and day. But Go can complete those tasks in a pretty quick way 
+    </li>
+    </ol>
+    </p>
+  </section>
+------------------------------------------------------------------------------
+<section class="main-section" id="Install_commands">
+  <header>Installation and Go Commands</header>
+  <p> Installtion of Go is very simple is other programming language. The installation steps is given below:
+    <ol>
+      <li> Go to the link <code> https://golang.org/dl/ </code> to install Go in your machine. After installtion, to check whether the installtion is coorectly done, type the following command in the command prompt 
+ <code> go </code>. If you get a long healthy message, then you can ensure that you have installed Go correctly on your machine. </li>
+      <li> Install any of the code editors you wish, it is not mandatory to use a particular thing. But my wish is to install VS Code for better performance. </li>
+  </ol>
+  Some of the Go Commands to illustrate Go are given below:
+  <ul>
+    <code>
+      <li>go build -- Compile a bunch of go Source file. </li>
+      <li>go run -- Compile and execute a bunch of files. </li>
+      <li>go fmt -- Formats all the code in each file in the cuurent directory </li>
+      <li>go install -- Compiles and install a package </li>
+      <li> go get -- Downlaod the Raw source code of someone else's package </li>
+    </code>
+      </ul>
+    </p>
+</section>
+------------------------------------------------------------------------------
+<section class="main-section" id="fst_pro">
+  <header>First Program </header>
+  <p> Now let us write our first program in Go. It's very simple as we already know. Let us write a Hello World Program <br> &emsp;
+    <code>
+      package main <br> &emsp;
+      
+      import "fmt" <br> &emsp;
+      
+      func main(){ <br> &emsp;
+      fmt.Println("Hello World") <br> &emsp;
+      } <br>
+    </code>
+    The above program will execute the statement <q> Hello World </q> to the console.The explanation of the code is given below:
+    <ul>
+      <li> package main -- It's an executable type of package which contains all the subpackages. This type of package produces an executable file to the directory when you compile it.</li>
+      <li>import "fmt" -- It's a subpackage which contains I/O functions. fmt stands for format.</li>
+      <li>func main() -- It's a main function. func is a keyword to create a function in Go Programming language.</li>
+      <li>fmt.Println() -- It's a print function to print the neccesary statements.</li>
+  </ul>
+  </p>
+</section>
+------------------------------------------------------------------------------
+<section class="main-section" id="var_dec">
+  <header> Variable Declaration </header>
+  <p> There are two ways of creating variable in Go language.
+    <ol>
+      <li> Using the syntax given below:
+        <br> &emsp;
+        <code> var name_of_the_variable data_type = value </code> </li>
+      <li> Second way of decalring variable is given below:
+        <br> &emsp;
+        <code> variable_name := value </code> </li>
+  </ol>
+  <div> <p> Note that := operator is used only to create a new variable. If you want to change the value of the variable declared, you should use = operator. </p> </div>
+  </p>
+</section>
+------------------------------------------------------------------------------
+<section class="main-section" id="func_ret">
+  <header> Function and Return </header>
+  <p> The syntax for declaring a Function is give below: <br> &emsp;
+    <code>
+      func name_of_the_function data_type (args passed){  <br> &emsp;
+      body_of_the_function <br> &emsp; 
+      return statement <br> &emsp;
+      }
+    </code>
+    <div> <p> If you don't declare the datatype in the function declaration, it will throw you an error. The datatype should match the return statement what you're going to give </p> </div>
+      </p>
+</section>
+------------------------------------------------------------------------------
+<section class="main-section" id="ref">
+  <header> Reference </header>
+  <p> If you want to know more about Go, Just go ahead with the links follows:
+    <ul>
+      <li> Reference Book -- <a href="https://www.openmymind.net/The-Little-Go-Book/" target="_blank"> Go Programming Book </a> </li>
+      <li> Code Snippets -- <a href="https://github.com/StephenGrider/GoCasts" target="_blank"> Snippets </a> </li>
+  </ul>
+  </p>
+</section>
+</main>
+</html>
+
